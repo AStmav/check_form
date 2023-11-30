@@ -17,19 +17,19 @@ git clone https://github.com/edick2081n/filling.git
 
 - Переходим в папку проекта  
 Формируем и активируем виртуальное окружение, устанавливаем зависимости
-```bash
+```python
 cd filling
 py - 3.9 - m venv virtualenv\filling
-virtualenv\filling\Scripts\activate
+\venv\Scripts\activate
 pip install -r requirements.txt
  
 ```
 - Запуск тестов
-```bash
+```python
 python manage.py test
 
 ```
 - Запуск в режиме разработки (опционально)
-```bach
+```python
 python manage.py runserver
 ```
