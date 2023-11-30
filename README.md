@@ -10,7 +10,7 @@
 
 - Склонировать репозиторий
 ```
-git clone https://github.com/edick2081n/filling.git
+git clone https://github.com/AStmav/check_formg.git
 
 ```
 
@@ -18,9 +18,9 @@ git clone https://github.com/edick2081n/filling.git
 - Переходим в папку проекта  
 Формируем и активируем виртуальное окружение, устанавливаем зависимости
 ```python
-cd filling
-py - 3.9 - m venv virtualenv\filling
-\venv\Scripts\activate
+python- m venv web_app_check_form
+cd venv
+.\Scripts\activate
 pip install -r requirements.txt
  
 ```
@@ -32,4 +32,8 @@ python manage.py test
 - Запуск в режиме разработки (опционально)
 ```python
 python manage.py runserver
+```
+ Введите в адресной строке адрес:
+ ```
+http://127.0.0.1:8000/
 ```
